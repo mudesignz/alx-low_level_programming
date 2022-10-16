@@ -7,8 +7,10 @@
 *
 * Description: 'Positive anything is better than negative nothing'
 *
-* * Return: Always 0 (Success)
+* Return: Always 0 (Success)
+*/
 /* betty style doc for function main goes there */
+
 int main(void)
 	{
 	int n;
