@@ -4,19 +4,18 @@
 /**
  * main - Entry point
  *
- * Description: 'The last digit'
+ * Description: 'Numbers'
  *
  * Return: Always 0 (Success)
  */
 /* betty style doc for function main goes there */
-int main(void)
+int maini(void)
 {
-	int ch;
+	int i;
 
-	for (ch = 'A'; ch <= 'Z'; ch++)
+	for (i = 0; i < 10; i++)
 	{
-		putchar(ch);
-		putchar('\n');
+		printf("%d\n", i);
 	}
 	return (0);
 }
