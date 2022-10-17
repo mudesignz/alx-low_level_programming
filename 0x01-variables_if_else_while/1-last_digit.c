@@ -24,7 +24,7 @@ int main(void)
 	}
 	if (rem  == 0)
 	{
-		printf("Last digit of %d is %d and is greater than 0\n", n, rem);
+		printf("Last digit of %d is %d\n", n, rem);
 	}
 	else if (rem < 6 && n % 10 != 0)
 	{
