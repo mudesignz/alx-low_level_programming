@@ -13,6 +13,7 @@
 int main(void)
 {
 	char tolower[x];
+	int x;
 
 	for (int x = 'A'; x <= 'Z'; x++)
 	{
