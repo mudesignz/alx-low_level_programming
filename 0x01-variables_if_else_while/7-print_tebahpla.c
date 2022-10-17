@@ -13,13 +13,9 @@ int main(void)
 {
 	int ch;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (ch = 'z'; ch <= 'a'; ch--)
 	{
 		putchar(ch);
-		if ((ch = 'e') || (ch = 'q'))
-		{
-			continue;
-		}
 	}
 	putchar('\n');
 	return (0);
