@@ -9,13 +9,14 @@
  * Return: Always 0 (Success)
  */
 /* betty style doc for function main goes there */
-int maini(void)
+int main(void)
 {
 	int i;
 
 	for (i = 0; i < 10; i++)
 	{
-		printf("%d\n", i);
+		printf("%d", i);
 	}
+	printf("\n")
 	return (0);
 }
