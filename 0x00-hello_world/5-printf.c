@@ -9,8 +9,9 @@
 */
 int main(void)
 {
-	char str1[] = "with proper grammar, but the outcome is a piece of art,\n";
+	char str1[] = "with proper grammar, but the outcome is a piece of art,";
 
 	puts(str1);
+	puts("\n");
 	return (0);
 }
