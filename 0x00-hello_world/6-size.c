@@ -13,9 +13,9 @@ int main(void)
 	char strChar;
 	int strInt;
 	long strLInt;
-	long long strLLInt
+	long long strLLInt;
 	float strFloat;
-
+	
 	printf("Size of a char: %zu byte(s)\n", strChar);
 	printf("Size of a int: %zu byte(s)\n", strInt);
 	printf("Size of a long int: %zu byte(s)\n", strLInt);
