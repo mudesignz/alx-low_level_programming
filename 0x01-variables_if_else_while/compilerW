@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "enter file name you wish to compile:"
+read fname
+
+echo "Checking errors with Betty Linter"
+betty $fname.c
+
+echo "Compiling using GCC - Wall -Wextra"
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 $fname.c -o $fname
+
+echo "Running the C executable output"
+./$fname

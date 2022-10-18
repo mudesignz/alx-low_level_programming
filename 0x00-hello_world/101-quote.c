@@ -2,10 +2,6 @@
 #include <string.h>
 #include <stdlib.h>
 
-void print_text(void)
-{
-	char str1[t] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-}
 /**
  * main starts here
  *
