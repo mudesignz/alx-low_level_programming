@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
- * _print_alphabet - writes the character c to stdout
- * @c: The character to print
+ * print_alphabet - check the code
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: Not required since it's void
  */
 void print_alphabet(void)
 {
 	int i;
-	for (i = 'a'; i <='z'; i++)
+
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		_putchar(i);
 	}
