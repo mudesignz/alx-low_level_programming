@@ -14,7 +14,7 @@ int main(void)
 
 	ch = 0;
 
-	for (ch = 0; ch <= 9; ch++)
+	for (ch = 0; ch <= 9; ++ch)
 	{
 		putchar(ch + '0');
 		putchar(',');
