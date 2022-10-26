@@ -10,29 +10,30 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int ch, a, b, c;
+	int ch, ch2;
 
 	ch = 0;
-	for (ch = 1; ch < 1000; ch++)
+	for (ch = 0; ch < 100; ch++)
 	{
-		a = ch / 100;
-		b = ch / 10;
-		c = ch % 10;
-
-		if ((a > b || a > c || b > c) || ((a == b) || (b == c) || (a == c)))
+		ch2 = ch++;
+		for (ch2 = 1 ; ch2 < 100; ch2++)
 		{
-			continue;
-		}
-
-		putchar((a) + '0');
-		putchar((b) + '0');
-		putchar((c) + '0');
-		if (ch == 999)
+		putchar((ch / 10) + '0');
+		putchar((ch % 10) + '0');
+		putchar(' ');
+		putchar((ch2 / 10) + '0');
+		putchar((ch2 % 10) + '0');
+		if (ch2 == 99)
 		{
 			break;
 		}
 		putchar(',');
 		putchar(' ');
+		}
+		if (ch == 99)
+		{
+			break;
+		}
 	}
 	putchar('\n');
 	return (0);
