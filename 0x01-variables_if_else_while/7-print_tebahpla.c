@@ -12,10 +12,12 @@
 int main(void)
 {
 	int ch;
-
-	for (ch = 'z'; ch <= 'a'; ch++)
+	
+	ch = 'z';
+	while (ch <= 'a')
 	{
 		putchar(ch);
+		ch = ch - 1;
 	}
 	putchar('\n');
 	return (0);
