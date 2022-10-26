@@ -10,7 +10,7 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int ch[];
+	int ch;
 
 	ch = 0;
 

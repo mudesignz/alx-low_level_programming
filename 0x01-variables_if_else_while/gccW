@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "enter file name to be compiled"
+
