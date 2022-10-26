@@ -17,7 +17,8 @@ int main(void)
 	{
 		a = ch / 10;
 		b = ch % 10;
-		if (a > b && b < a)
+
+		if (a > b || b == a)
 		{
 			continue;
 		}
