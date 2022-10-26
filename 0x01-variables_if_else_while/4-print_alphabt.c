@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* more headers goes there */
 /**
  * main - Entry point
  *
- * Description: 'The last digit'
+ * Description: 'Skipping Q and E'
  *
  * Return: Always 0 (Success)
  */
@@ -15,11 +14,11 @@ int main(void)
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(ch);
-		if ((ch = 'e') || (ch = 'q'))
+		if (ch == 'e' || ch == 'q')
 		{
 			continue;
 		}
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
