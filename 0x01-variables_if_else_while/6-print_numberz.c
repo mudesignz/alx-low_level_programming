@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
 * main - Entry point
@@ -10,9 +9,9 @@ int main(void)
 {
 	int no;
 
-	for (no = '0'; no <= 9; no++)
-		putchar(no);
+	for (no = 0; no <= 9; no++)
+		putchar((no % 10));
 
-	putchar("/n");
+	putchar('\n');
 	return (0);
 }
