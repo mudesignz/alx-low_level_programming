@@ -25,5 +25,5 @@ int main(void)
 		putchar(' ');
 	}
 	return (0);
-	putchar('\n')
+	putchar('\n');
 }
