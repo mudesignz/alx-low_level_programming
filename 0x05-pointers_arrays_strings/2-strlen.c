@@ -1,16 +1,17 @@
 #include "main.h"
 /**
- * swap_int - entry point
- * @a: data input by user
- * @b: data input by user
+ * strlen - entry point
+ * @s: data input by user
+ *
  * Description: 'returns int to main program'
  * Return: Always 0 (Success)
  */
-void swap_int(int *a, int *b)
+int _strlen(char *s)
 {
-	int c;
-
-	c = *a;
-	*a = *b;
-	*b = c;
+	int c, n, count = 0;
+	*s[n];
+	for (c = 0; c <= n; c++)
+	{
+		count++;
+	}
 }
