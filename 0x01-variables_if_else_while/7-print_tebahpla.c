@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* more headers goes there */
 /**
  * main - Entry point
  *
@@ -12,7 +11,7 @@
 int main(void)
 {
 	int ch;
-	
+
 	ch = 'z';
 
 	while (ch >= 'a')
