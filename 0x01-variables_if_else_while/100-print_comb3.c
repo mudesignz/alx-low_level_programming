@@ -13,7 +13,7 @@ int main(void)
 	int ch, a, b;
 
 	ch = 0;
-	for (ch = 1; ch < 90; ch++)
+	for (ch = 1; ch < 100; ch++)
 	{
 		a = ch / 10;
 		b = ch % 10;

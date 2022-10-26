@@ -13,14 +13,21 @@ int main(void)
 	int ch, a, b;
 
 	ch = 0;
-	for (ch = 0; ch < 90; ch++)
+	for (ch = 1; ch < 90; ch++)
 	{
-		a = ch / 10;
-		b = ch % 10;
+		a = ch / 100;
+		b = ch / 10;
+		c = ch % 10;
 
-		putchar((ch % 10) + '0');
-		putchar((ch / 10) + '0');
-		if (ch == 89)
+		if (a > b && b > c || b == a)
+		{
+			continue;
+		}
+
+		putchar((a) + '0');
+		putchar((b) + '0');
+		putchar((c) + '0');
+		if (ch == 999)
 		{
 			break;
 		}
