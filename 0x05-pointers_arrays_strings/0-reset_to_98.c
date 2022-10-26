@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * reset_to_98 - check the code
- * int n = random number returned to the main function
- * Return: Always 0.
+ * reset_to_98 - entry point
+ * @n: data input by user
+ * Description: 'returns int to main program'
+ * Return: Always 0 (Success)
  */
 void reset_to_98(int *n)
 {
