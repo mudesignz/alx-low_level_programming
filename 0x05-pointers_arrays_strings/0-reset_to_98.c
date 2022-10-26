@@ -5,9 +5,9 @@
  *
  * Return: Always 0.
  */
-void reset_to_98(void)
+void reset_to_98(int *n )
 {
 	int i;
-	int* p = &i;
-	*p = 98;
+	n = &i;
+	*n = 98;
 }
