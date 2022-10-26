@@ -13,7 +13,7 @@ int main(void)
 	int ch, ch2;
 
 	ch = 0;
-	for (ch = 0; ch < 100; ch++)
+	while (ch < 100)
 	{
 		ch2 = ch++;
 		for (ch2 = 1 ; ch2 < 100; ch2++)
@@ -30,6 +30,7 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 		}
+		ch++;
 		if (ch == 99)
 		{
 			break;
