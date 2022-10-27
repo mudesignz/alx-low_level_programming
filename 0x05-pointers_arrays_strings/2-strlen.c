@@ -1,6 +1,7 @@
 #include "main.h"
+#include <string.h>
 /**
- * strlen - entry point
+ * _strlen - entry point
  * @s: data input by user
  *
  * Description: 'returns int to main program'
@@ -9,9 +10,11 @@
 int _strlen(char *s)
 {
 	int c, n, count = 0;
-	s[n];
+
+	n = strlen(s);
 	for (c = 0; c <= n; c++)
 	{
 		count++;
 	}
+	return count;
 }
