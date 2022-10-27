@@ -11,14 +11,14 @@ void print_rev(char *s)
 	int i;
 
 	i = strlen(s);
-	while (s[i] > 0)
+	while (s[i] >= 0)
 	{
 		--i;
 		if (s[i] != '\0' || s[i] != ' ')
 		{
 		_putchar(s[i]);
 		}
-		if (i == 0)
+		if (i >= 0)
 		{
 			break;
 		}
