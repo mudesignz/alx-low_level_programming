@@ -19,10 +19,6 @@ void print_rev(char *s)
 		}
 		--i;
 		_putchar(s[i]);
-		if (i < 0)
-		{
-			break;
-		}
 	}
 	_putchar('\n');
 }
