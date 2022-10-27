@@ -8,12 +8,10 @@
  */
 void _puts(char *a)
 {
-	int i, c = 0;
+	int c = 0;
 
-	i = strlen(a);
-
-	for (c = 0; c < i; c++)
+	while (a[c] != '\0')
 	{
-		_putchar(*a);
+		_putchar(a[c]);
 	}
 }
