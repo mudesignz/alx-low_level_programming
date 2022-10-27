@@ -8,7 +8,8 @@
  */
 void _puts(char *a)
 {
-	int c;
+	char str[];
+	str[] = *a;
 
 	puts(a[]);
 }
