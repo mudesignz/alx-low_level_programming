@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_rev - entry point
+ * rev_string - entry point
  * @s: data input by user
  *
  * Description: 'returns int to main program'
