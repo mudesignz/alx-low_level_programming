@@ -12,9 +12,9 @@ int _strlen(char *s)
 	int c, n, count = 0;
 
 	n = strlen(s);
-	for (c = 0; c <= n; c++)
+	for (c = 0; c < n; c++)
 	{
-		++count;
+		count++;
 	}
 	return (count);
 }
