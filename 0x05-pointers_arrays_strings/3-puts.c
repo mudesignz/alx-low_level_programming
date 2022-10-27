@@ -9,7 +9,6 @@
 void _puts(char *a)
 {
 	int c;
-	a[c];
 
-	puts(a);
+	puts(a[]);
 }
