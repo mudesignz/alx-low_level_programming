@@ -1,16 +1,23 @@
 #include "main.h"
 /**
- * swap_int - entry point
- * @a: data input by user
- * @b: data input by user
+ * print_rev - entry point
+ * @s: data input by user
+ *
  * Description: 'returns int to main program'
  * Return: Always 0 (Success)
  */
-void swap_int(int *a, int *b)
+void rev_string(char *s)
 {
-	int c;
+	int i, c;
 
-	c = *a;
-	*a = *b;
-	*b = c;
+	i = strlen(s);
+	for (c =0; c <= i; c++)
+	{
+		i--;
+		if (s[i] != '\0')
+		{
+		_putchar(s[i]);
+		}
+	}
+	_putchar('\n');
 }
