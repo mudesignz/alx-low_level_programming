@@ -1,0 +1,22 @@
+#include "main.h"
+/**
+ * print_sign - check the code.
+ * @n: is a single letter
+ * Return: 1 if is positive number, else 0
+ */
+int print_sign(int n)
+{
+	if (c > 0)
+	{
+		_putchar('+');
+		return (1);
+	}
+	else if (c == 0)
+	{
+		_putchar(0);
+		return (0);
+	}
+	else
+		_putchar('-1');
+		return (-1);
+}
