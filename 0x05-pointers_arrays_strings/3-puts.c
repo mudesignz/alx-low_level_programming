@@ -10,8 +10,11 @@ void _puts(char *a)
 {
 	int c = 0;
 
+	/*i = strlen(c);*/
 	while (a[c] != '\0')
 	{
 		_putchar(a[c]);
+		c++;
 	}
+	_putchar('\n');
 }
