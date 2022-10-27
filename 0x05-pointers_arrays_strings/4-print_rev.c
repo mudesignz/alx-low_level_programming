@@ -7,18 +7,15 @@
  * Return: Always 0 (Success)
  */
 void print_rev(char *s)
-{
-	int i;
-
-	i = strlen(s);
-	while (s[i] > 0)
+{ 
+	while (*s >= 0)
 	{
 		if (*s == '\0')
 		{
 			continue;
 		}
-		--i;
-		_putchar(s[i]);
+		--s;
+		_putchar(*s);
 	}
 	_putchar('\n');
 }
