@@ -8,7 +8,13 @@
  */
 void _puts(char *a)
 {
-	char str [] = *a;
+	int i, c = 0; 
 
-	puts(str);
+	i = strlen(a);
+
+	while (c < i)
+	{
+		_putchar(*a);
+		c++;
+	}
 }
