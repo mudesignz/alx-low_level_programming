@@ -13,15 +13,14 @@ void print_rev(char *s)
 	i = strlen(s);
 	while (s[i] >= 0)
 	{
+		if (i == 0)
+			break;
 		--i;
 		if (s[i] != '\0' || s[i] != ' ')
 		{
 		_putchar(s[i]);
 		}
-		if (i == 0 && i < 0)
-		{
-			break;
-		}
+		
 	}
 	_putchar('\n');
 }
