@@ -13,12 +13,12 @@ void print_rev(char *s)
 	i = strlen(s);
 	while (s[i] >= 0)
 	{
-		if(*s == '\0')
+		if(*s == ' ')
 		{
 			continue;
 		}
+		--i;
 		_putchar(s[i]);
-		i--;
 		if (i < 0)
 		{
 			break;
