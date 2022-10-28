@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print_numbers - check the code
@@ -6,9 +7,12 @@
  */
 void print_numbers(void)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; i < 10; i++)
-		_putchar(i);
+	while (i < 10)
+	{
+		_putchar((i)+'0');
+		i++;
+	}
 	_putchar('\n');
 }
