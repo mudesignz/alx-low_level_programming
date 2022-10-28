@@ -11,7 +11,7 @@ void print_square(int n)
 
 	while (s < n)
 	{
-		if (n == 0)
+		if (n <= 0)
 			break;
 		for (i = 0; i < n; i++)
 		{
