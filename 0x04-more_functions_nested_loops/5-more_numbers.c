@@ -5,16 +5,18 @@
  *
  * Return: Always 0.
  */
-void print_most_numbers(void)
+void more_numbers(void)
 {
-	int i, x;
+	int i, x = 0;
 
-	for (x = 0; x < 10; x++)
+	while (x < 10)
 	{
-		if (i = 0 && i < 14)
+		for (i = 0; i < 14; i++)
 		{
 			_putchar((i) + '0');
 		}
+	_putchar('\n');
+	x++;
 	}
 	_putchar('\n');
 }
