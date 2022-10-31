@@ -9,10 +9,10 @@ void print_square(int n)
 {
 	int i, s = 0;
 
+	if (n < 1)
+		_putchar('\n');
 	while (s < n)
 	{
-		if (n <= 0)
-			break;
 		for (i = 0; i < n; i++)
 		{
 			_putchar('#');
